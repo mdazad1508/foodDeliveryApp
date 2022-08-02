@@ -1,0 +1,44 @@
+.header{
+    background-color: white;
+    color:#4d1601;
+    
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+    width: 100%;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+    height: 100px;
+
+    
+    
+
+}
+.header h1{
+    font-family: sans-serif;
+    margin-left:20px;
+    font-size:2em;
+    font-family: Poppins;
+}
+
+.img{
+    z-index: 0;
+    position:relative;
+    height:25rem;
+
+    
+        
+}
+.img img{
+    transform: rotateZ(0deg) translateY(-3rem) translateX(-1rem);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
+    height: auto;
+}
+
+.btn{
+    position:fixed;
+    top:10px;
+    right:100px;
+    
+}
